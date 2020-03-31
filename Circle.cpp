@@ -1,10 +1,5 @@
 #include "Circle.h"
 
-#include <iostream>
-#include <iomanip>
-
-using namespace std;
-
 
 Circle::Circle()
     : Shape2D(0.0, 0.0), radius(0.0)
