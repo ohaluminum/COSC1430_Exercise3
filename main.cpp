@@ -13,7 +13,7 @@ int main()
    Circle circ(3.4, -1, 3.0);
    
    // please fix the error below
-   cout << "The center of the circle is: (" << circ.center_x << ", " << circ.center_y << ")." << endl;
+   cout << "The center of the circle is: (" << circ.getCenter_x() << ", " << circ.getCenter_y() << ")." << endl;
    circ.compArea();
    circ.printArea();
    
