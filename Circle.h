@@ -14,8 +14,8 @@ public:
 	Circle(float cx, float cy, float r);
 	float getRadius();
 	void setRadius(float _r);
-	void compArea();
-	void printArea();
+	virtual void compArea();
+	void printArea() override;
 
 protected:
 	float radius;

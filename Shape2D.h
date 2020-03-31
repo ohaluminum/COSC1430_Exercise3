@@ -43,7 +43,7 @@ public:
         area = a;
     }
 
-    void printArea() 
+    virtual void printArea() 
     { 
         cout << "No area computed!" << endl;
     }

@@ -14,8 +14,8 @@ public:
 	Cylinder(float cx, float cy, float r, float h);
 	float getHeight();
 	void setHeight(float h);
-	void compArea();
-	void printArea();
+	void compArea() override;
+	void printArea() override;
 
 private:
 	float height;
