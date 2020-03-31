@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <iomanip>
+
 using namespace std;
 
 #ifndef SHAPE2D_H
