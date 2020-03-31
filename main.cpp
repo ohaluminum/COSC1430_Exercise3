@@ -17,7 +17,7 @@ int main()
    circ.compArea();
    circ.printArea();
    
-   Circle *cyl = new Cylinder (5, 6, 7, 8);
+   Cylinder *cyl = new Cylinder (5, 6, 7, 8);
    cyl->compArea();
    cyl->printArea();
       

@@ -46,7 +46,7 @@ void Circle::compArea()
  */
 void Circle::printArea()
 {
-    cout << "The area of the circle is " << getArea() << fixed << setprecision(2) << "." << endl;
+    cout << "The area of the circle is " << getArea() << fixed << setprecision(2) << endl;
 }
 
 
